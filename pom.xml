@@ -24,12 +24,12 @@
         <repository>
             <id>triple_brain-releases</id>
             <name>Triple Brain Maven repository of releases</name>
-            <url>http://0.0.0.1:8080/nexus/content/repositories/triple_brain-releases/</url>
+            <url>http://0.0.0.0:8081/nexus/content/repositories/triple_brain-releases</url>
         </repository>
         <snapshotRepository>
             <id>triple_brain-snapshots</id>
             <name>TripleBrain Maven repository of snapshots</name>
-            <url>http://0.0.0.1:8080/nexus/content/repositories/triple_brain-snapshots/</url>
+            <url>http://0.0.0.0:8081/nexus/content/repositories/triple_brain-snapshots</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
