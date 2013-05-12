@@ -22,12 +22,12 @@
 
     <distributionManagement>
         <repository>
-            <id>triple_brain-releases</id>
+            <id>releases</id>
             <name>Triple Brain Maven repository of releases</name>
             <url>http://triple-brain.org:8081/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>triple_brain-snapshots</id>
+            <id>snapshots</id>
             <name>TripleBrain Maven repository of snapshots</name>
             <url>http://triple-brain.org:8081/nexus/content/repositories/snapshots</url>
             <uniqueVersion>false</uniqueVersion>
