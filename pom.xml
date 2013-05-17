@@ -20,20 +20,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Triple Brain Maven repository of releases</name>
-            <url>http://triple-brain.org:8081/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>TripleBrain Maven repository of snapshots</name>
-            <url>http://triple-brain.org:8081/nexus/content/repositories/snapshots</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
-
     <developers>
         <developer>
             <id>vblouin</id>
