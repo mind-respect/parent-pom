@@ -15,7 +15,7 @@
 
     <properties>
         <jdk.version>1.7</jdk.version>
-        <neo4j.version>2.0.0-M03</neo4j.version>
+        <neo4j.version>2.0.0-M04</neo4j.version>
         <junit.version>4.10</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
