@@ -35,13 +35,13 @@
     <distributionManagement>
         <!-- use the following if you're not using a snapshot version. -->
         <repository>
-            <id>nexus</id>
+            <id>nexus-release</id>
             <name>RepositoryProxy</name>
             <url>http://216.14.114.238:8081/nexus/content/repositories/releases</url>
         </repository>
         <!-- use the following if you ARE using a snapshot version. -->
         <snapshotRepository>
-            <id>nexus</id>
+            <id>nexus-snapshot</id>
             <name>RepositoryProxy</name>
             <url>http://216.14.114.238:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
