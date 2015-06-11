@@ -8,21 +8,20 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.triple_brain</groupId>
+    <groupId>guru.bubl</groupId>
     <artifactId>parent-pom</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>bubl.guru parent pom</name>
+    <description>bubl.guru parent pom</description>
 
-    <name>Triple Brain parent POM</name>
-    <description>Triple Brain parent POM</description>
-
-    <properties>
-        <jdk.version>1.7</jdk.version>
-        <neo4j.version>2.2.2</neo4j.version>
-        <junit.version>4.12</junit.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <licenses>
+        <license>
+            <name>GNU General Public License (GPL)</name>
+            <url>http://www.gnu.org/licenses/gpl.txt</url>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
@@ -35,6 +34,13 @@
             </roles>
         </developer>
     </developers>
+
+    <properties>
+        <jdk.version>1.7</jdk.version>
+        <neo4j.version>2.2.2</neo4j.version>
+        <junit.version>4.12</junit.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <build>
         <extensions>
