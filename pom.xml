@@ -326,6 +326,12 @@
                 <artifactId>commons-dbutils</artifactId>
                 <version>1.6</version>
             </dependency>
+            <dependency>
+                <groupId>com.googlecode.junit-toolbox</groupId>
+                <artifactId>junit-toolbox</artifactId>
+                <version>1.5</version>
+                <scope>test</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
