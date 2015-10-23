@@ -291,8 +291,12 @@
                 <version>2.1.4</version>
                 <exclusions>
                     <exclusion>
-                        <groupId>*</groupId>
-                        <artifactId>*</artifactId>
+                        <groupId>org.neo4j</groupId>
+                        <artifactId>neo4j-kernel</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.neo4j</groupId>
+                        <artifactId>neo4j</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
