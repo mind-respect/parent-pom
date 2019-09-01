@@ -41,8 +41,8 @@
             <roles>
                 <role>developer</role>
             </roles>
-            <organization>bubl.guru</organization>
-            <organizationUrl>about.bubl.guru</organizationUrl>
+            <organization>mindrespect.com</organization>
+            <organizationUrl>mindrespect.com</organizationUrl>
         </developer>
     </developers>
 
@@ -55,7 +55,7 @@
 
     <properties>
         <jdk.version>1.8</jdk.version>
-        <neo4j.version>2.3.2</neo4j.version>
+        <neo4j.version>3.5.8</neo4j.version>
         <junit.version>4.12</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -265,7 +265,7 @@
             </dependency>
             <dependency>
                 <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-kernel</artifactId>
+                <artifactId>neo4j</artifactId>
                 <version>${neo4j.version}</version>
             </dependency>
             <dependency>
@@ -274,31 +274,9 @@
                 <version>${neo4j.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-lucene-index</artifactId>
-                <version>${neo4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-kernel</artifactId>
-                <type>test-jar</type>
-                <scope>test</scope>
-                <version>${neo4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.neo4j</groupId>
-                <artifactId>neo4j-jdbc</artifactId>
-                <version>2.3.2</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.neo4j</groupId>
-                        <artifactId>neo4j-kernel</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.neo4j</groupId>
-                        <artifactId>neo4j</artifactId>
-                    </exclusion>
-                </exclusions>
+                <groupId>org.neo4j.driver</groupId>
+                <artifactId>neo4j-java-driver</artifactId>
+                <version>1.7.5</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
